@@ -1,25 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 .scroll-container {
-    background: rgb(7, 7, 7);
-    width: 25rem;
-    padding: 30px;
+  background: rgb(7, 7, 7);
+  width: 25rem;
+  padding: 30px;
 }
 
 .scroll-div {
-    width: 400px;
-    height: 500px;
-    background: rgb(7, 7, 7);
-    overflow: hidden;
-    overflow-y: scroll;
+  width: 400px;
+  height: 500px;
+  background: rgb(7, 7, 7);
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .scroll-object {
-    padding: 20px;
+  padding: 20px;
 }
