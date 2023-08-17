@@ -11,7 +11,7 @@ function tick() {
   const html = `
     <span>${h} :</span>
     <span>${m} :</span>
-    <span>${s} :</span>
+    <span>${s}</span>
 `;
   clock.innerHTML = html;
 }
