@@ -1,117 +1,76 @@
-:root {
-    --modal-duration: 1s;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content-container">
+        <h1>Welcome to the Real World</h1>
+        <p>
+          "Welcome to the Real World" marks a pivotal transition, as individuals
+          step from the sheltered confines of education into the uncharted
+          territory of adulthood. In this realm, idealism collides with
+          practicality, and every choice carries weight. It's a space where
+          personal growth thrives amid challenges, where dreams are tested
+          against reality's canvas, and where the journey to self-discovery and
+          achievement truly begins.
+        </p>
+        <button class="cta-btn" id="open">Sign up</button>
+      </div>
+    </header>
 
-* {
-    box-sizing: border-box;
-}
+    <section class="modal-container" id="modal">
+      <section class="modal">
+        <button class="close-btn" id="close">X</button>
+        <div class="modal-content">
+          <h1>Sign Up</h1>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="text"
+                id="password"
+                placeholder="Enter password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="text"
+                id="password2"
+                placeholder="Confirm password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </section>
+    </section>
 
-body {
-    font-family: sans-serif;
-    margin: 0;
-    transition: transform 0.3s ease;
-}
-
-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1272&q=80");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.content-container h1 {
-    font-size: 4rem;
-    color: #fff;
-
-}
-
-.content-container p {
-    width: 600px;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #fff;
-    line-height: 24px ;
-}
-
-.cta-btn{
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    outline: none;
-    border: none;
-    background-color: crimson;
-    color: #fff;
-    cursor: pointer;
-}
-
-.modal-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.modal {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    width: 400px;
-}
-
-.modal-content {
-    padding: 20px;
-}
-
-.modal-form div {
-    margin: 20px 0;
-}
-
-.modal-form label {
-    display: block;
-    margin-bottom: 6px;
-}
-
-.modal-form .form-input{
-    padding: 8px;
-    width: 100%;
-}
-
-.close-btn {
-    background: transparent;
-    border: none;
-    font-size: 25px;
-    position: absolute;
-    top: 5px;
-    right: 12px;
-    cursor: pointer;    
-}
- 
-.modal-container .submit-btn {
-    padding: 10px 30px;
-    font-weight: bold;
-    background: crimson;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-}
-
-/* JavaScript */
-.modal-container.show-modal{
-    display: block;
-}
+    <script src="app.js"></script>
+  </body>
+</html>
