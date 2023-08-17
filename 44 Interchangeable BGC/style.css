@@ -27,6 +27,7 @@ body {
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
+    border-radius: 7.5px;
 }
 
 .purple {
