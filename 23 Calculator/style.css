@@ -1,43 +1,45 @@
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #2D4356;
-    color: white;
-    font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4682a9;
+  color: white;
+  font-family: "Roboto", sans-serif;
 }
 
 .main {
-    padding: 5px 0;
-    text-align: center ;
+  padding: 5px 0;
+  text-align: center;
 }
 
 input {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.inputs input{
-    border: none;
-    border-radius: 5px;
-    padding: 1rem 0rem;
-    outline: none;
-    margin-bottom: 10px;
+.inputs input {
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 0rem;
+  outline: none;
+  margin-bottom: 10px;
 }
 
 #selectOp {
-    margin-bottom: 10px;
-    padding: 10px;
-    outline: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 1.2rem;
 }
 
 #btn {
-    border: none;
-    background: transparent;
-    color: white;
-    padding: 10px 20px;
-    border: 2px solid white;
-    margin-top: 10px;
-    cursor: pointer;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid blue;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 20%;
 }
