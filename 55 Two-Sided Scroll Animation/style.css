@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-slid {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.8s ease-in-out;
+}
+
+.left-slid > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.left-slid h2 {
+  font-size: 2rem;
+}
+
+.right-slid {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.right-slid > div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buttons-container button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background: transparent;
+  color: darkblue;
+  font-size: 2.2rem;
+}
+
+#down-btn {
+  transform: translateX(-100%);
+}
+
+#up-btn {
+  transform: translateY(-100%);
+}
+
+.game-one {
+  background-color: #4682a9;
+}
+
+.game-two {
+  background-color: #765827;
+}
+
+.game-three {
+  background-color: #61677a;
+}
+
+.game-four {
+  background-color: #916db3;
+}
+.game-five {
+  background-color: #fd8d14;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-one {
+  background: url(https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-two {
+  background: url(https://images.pexels.com/photos/3800517/pexels-photo-3800517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-three {
+  background: url(https://images.pexels.com/photos/2820906/pexels-photo-2820906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-four {
+  background: url(https://images.pexels.com/photos/17920231/pexels-photo-17920231/free-photo-of-woman-sitting-and-posing-on-tennis-court.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.img-five {
+  background: url(https://images.unsplash.com/photo-1630610280030-da8fbc7ca25a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
+}
