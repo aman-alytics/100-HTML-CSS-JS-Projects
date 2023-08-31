@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  width: 40%;
+  height: 40%;
+  background: #e2c799;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3.5rem;
+}
+
+.container input {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  outline: none;
+  border-radius: 15rem;
+}
+
+.container button {
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  background: #c08261;
+  width: 150px;
+  color: #fff;
+  border-radius: 15rem;
+}
+
+.background-image {
+  background-image: url("https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
+}
