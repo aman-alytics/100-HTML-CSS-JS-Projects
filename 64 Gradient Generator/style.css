@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+section {
+  margin: 10vh 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#gradient-cont {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient;
+}
+
+.cont {
+  width: 40vw;
+}
+
+.colors {
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+.randomColorBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  margin-left: 3rem;
+  cursor: pointer;
+  background-color: #808080;
+  border-radius: 3.5rem;
+  border: none;
+}
