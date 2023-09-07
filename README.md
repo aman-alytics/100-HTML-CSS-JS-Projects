@@ -20,4 +20,3 @@ One must note that to learn JavaScript, Practice is important. More you practice
 
  These projects serve as building blocks towards creating complete websites in the future.
 
-Feel free to customize and expand upon these points to provide more details about each project and how they contribute to your JavaScript skills development. Happy coding!
