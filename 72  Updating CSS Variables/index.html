@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input
+          type="range"
+          id="spacing"
+          name="spacing"
+          min="10"
+          max="200"
+          value="10"
+        />
+
+        <label for="blur">Blur:</label>
+        <input type="range" id="blur" name="blur" min="0" max="25" value="10" />
+
+        <label for="base">Color:</label>
+        <input type="color" id="base" name="base" value="#ffc600" />
+      </div>
+      <img
+        src="https://images.pexels.com/photos/292442/pexels-photo-292442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
