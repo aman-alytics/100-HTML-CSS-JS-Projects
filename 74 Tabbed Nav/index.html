@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabbed Nav</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tabbed-container">
+      <div class="container">
+        <div class="menu_Links">
+          <ul>
+            <li class="active">About</li>
+            <li>Courses</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sections">
+        <section class="about_section visible" data-section="About">
+          <h2>About Me</h2>
+          <img src="images/AshPro.jpg" alt="About Image" />
+          <h4>TheHybridDev</h4>
+          <p>
+            I am fully dedicated to learning and honing my skills in web
+            development. With a strong focus on expanding my knowledge and
+            expertise in this field, I am actively seeking opportunities to
+            contribute my talents and secure a role that allows me to leverage
+            my passion for creating innovative web solutions.
+          </p>
+        </section>
+
+        <section class="courses_section" data-section="Courses">
+          <h2>Tech Stacks</h2>
+          <a href="#">
+            <div class="team_box">
+              <img src="images/html.png" alt="" />
+              <h4>HTML</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="team_box">
+              <img src="images/git and github.png" alt="" />
+              <h4>Git and GitHub</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="team_box">
+              <img src="images/css.png" alt="" />
+              <h4>CSS</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="team_box">
+              <img src="images/js.png" alt="" />
+              <h4>JavaScript</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="team_box">
+              <img src="images/vscode.png" alt="" />
+              <h4>VSCode</h4>
+            </div>
+          </a>
+        </section>
+
+        <section class="contact_section" data-section="Contact">
+          <h2>Contact</h2>
+          <div class="social_links">
+            <a href="">Youtube</a>
+            <a href="">Github</a>
+            <a href="">Twitter</a>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
